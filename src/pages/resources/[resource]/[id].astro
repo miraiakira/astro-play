@@ -1,4 +1,12 @@
 ---
+export async function getStaticPaths() {
+  return [
+    // <-- Array
+    { params: { id: "1", resource: "blog" } },
+    { params: { id: "2", resource: "blog" } },
+    { params: { id: "3", resource: "blog" } },
+  ];
+}
 const { resource, id } = Astro.params;
 ---
 
