@@ -1,5 +1,8 @@
-# build output
-dist/
+# vscode
+.vscode
+
+# packge-lock.json
+package-lock.json
 
 # generated types
 .astro/
